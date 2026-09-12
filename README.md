@@ -1,3 +1,11 @@
+> **fomofly's fork.** Same brain, pointed at [fomo.family](https://fomo.family):
+> every thesis on a token page becomes an odour, the author's PnL is the dopamine,
+> and the fly decides whether to buy. The fly's own pieces are `nose.py`, `tongue.py`,
+> `mushroom.py` (upstream, unchanged), `service.py` and `admin.py`; how it all fits is
+> in [FOMOFLY.md](FOMOFLY.md). Install with `requirements-fomofly.txt`. The connectome,
+> the neuron model and the learning rule are upstream's, and Janelia's data stays CC-BY.
+> The page is at [fomofly.tech](https://www.fomofly.tech).
+
 # flycoinrh
 
 A real fruit fly brain, simulated neuron by neuron, driving the

@@ -1,0 +1,18 @@
+[Unit]
+Description=fly (fomofly brain: real connectome, smells fomo pages)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/fly
+EnvironmentFile=/opt/fly/.env
+ExecStart=/opt/fly/.venv/bin/python /opt/fly/service.py
+Restart=always
+RestartSec=5
+Nice=10
+MemoryMax=3G
+
+[Install]
+WantedBy=multi-user.target
